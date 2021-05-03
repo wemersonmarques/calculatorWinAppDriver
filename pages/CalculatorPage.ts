@@ -13,6 +13,8 @@ class CalculatorPage {
     get botao9() { return By2.nativeAccessibilityId('num9Button') }
     get botaoLimpar() { return By2.nativeAccessibilityId('clearEntryButton') }
     get botaoIgual() { return By2.nativeAccessibilityId('equalButton') }
+    get botaoDivisao() { return By2.nativeAccessibilityId('divideButton') }
+    get botaoMultiplicacao() { return By2.nativeAccessibilityId('multiplyButton') }
     get botaoSoma() { return By2.nativeAccessibilityId('plusButton') }
     get botaoMenos() { return By2.nativeAccessibilityId('minusButton') }
     get resultado() { return By2.nativeAccessibilityId('CalculatorResults') }
